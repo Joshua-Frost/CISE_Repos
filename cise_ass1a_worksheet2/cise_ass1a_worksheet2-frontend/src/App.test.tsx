@@ -13,3 +13,9 @@ describe("Addition", () => {
     expect(2 + 2).toBe(4);
   });
 });
+
+describe("Incorrect Addition", () => {
+  it("knows that 2 and 2 fails to make 5", () => {
+    expect(2 + 2).toBe(5);
+  });
+});
