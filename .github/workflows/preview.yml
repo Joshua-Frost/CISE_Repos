@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   Test:
-    uses: Joshua-Frost/CISE_Repos/.github/workflows/test.yml@develop
+    uses: Joshua-Frost/CISE_Repos/.github/workflows/test.yml@worksheet4
 
   Deploy-Preview:
     runs-on: ubuntu-latest
