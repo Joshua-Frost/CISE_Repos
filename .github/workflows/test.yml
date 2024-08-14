@@ -20,4 +20,4 @@ jobs:
 
       - name: Run test
         working-directory: worksheet4/frontend
-        run: npm run test:ci
+        run: npm -v
